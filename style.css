@@ -432,9 +432,64 @@ header nav.nav-is-visible span.stretchy-nav-bg{
 	padding: 0 15px;
 }
 .about .separator .line{
-	border-bottom: 1px solid #4c4c4c;
+	border-bottom: 2px solid #4c4c4c;
 
 }
+.about .resume {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+}
+.about .resume .col-6{
+	color: #ffffff;
+}
+.about .resume h3{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.about .timeline{
+	list-style-type: none;
+	position: relative;
+}
+.about .timeline::before{
+	content: '';
+	background: #dda51e;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+}
+.about .timeline li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;	
+}
+.about .timeline li h4{
+	
+	padding: 5px 0 5px 20px;
+	column-rule-color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.about .timeline li span{
+	font-weight: bolder;
+	color: #ccc;
+}
+.about .timeline li::before{	
+	content: '';
+	background: #222222;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	border: 1px  solid #dda51e;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+
 /* Contact */
 .contact{
 	min-height: 100vh;
