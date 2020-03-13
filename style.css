@@ -57,9 +57,6 @@ header nav a.nav-trigger span{
 	position: relative;
 	transition: all 0.3s ease;
 }
-/*header nav a.nav-trigger span{
-	background-color: #1df30a;
-}*/
 header nav.nav-is-visible a.nav-trigger span{
 	background-color: transparent;
 }
@@ -114,7 +111,7 @@ header nav ul li a{
 	text-decoration: none;
 	height: 50px;
 	line-height: 50px;
-	transition: all 0.3s ease;
+	transition: all 0.6s ease;
 	opacity: 0;
 	/*display: inline-block; */
 	display: block;
@@ -134,6 +131,9 @@ header nav ul li:nth-child(4) a{
 }
 header nav ul li:nth-child(5) a{
 	animation-delay: 0.4s;
+}
+header nav ul li:nth-child(6) a{
+	animation-delay: 0.5s;
 }
 @keyframes nav{
 	from{
@@ -372,13 +372,13 @@ header nav.nav-is-visible span.stretchy-nav-bg{
 }
 .about .personal-info .img-box .pic{
 	margin: auto;
-	max-width: 350px;
+	max-width: 300px;
 	position: relative;
 }
 .about .personal-info .img-box .pic::before{
 	content: '';
 	position: absolute;
-	left: 25px;
+	left: 20px;
 	top: 25px;
 	box-sizing: border-box;
 	border: 6px solid #dda51e;
@@ -456,7 +456,7 @@ header nav.nav-is-visible span.stretchy-nav-bg{
 	background: #dda51e;
 	display: inline-block;
 	position: absolute;
-	left: 29px;
+	left: 30px;
 	width: 2px;
 	height: 100%;
 	z-index: 1;
@@ -483,7 +483,7 @@ header nav.nav-is-visible span.stretchy-nav-bg{
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 1px  solid #dda51e;
+	border: 2px  solid #dda51e;
 	left: 20px;
 	width: 20px;
 	height: 20px;
