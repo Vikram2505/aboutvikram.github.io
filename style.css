@@ -14,7 +14,7 @@ body{
 	box-sizing: border-box;
 }
 .container{
-	max-width: 1170px;	
+	max-width: 1250px;	
 	margin: auto;
 }
 .row{
@@ -316,12 +316,17 @@ header nav.nav-is-visible span.stretchy-nav-bg{
 }
 .about .page-title h1.heading{
 	font-size: 42px;
+	
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	color: #ffffff;
 	margin: 0 0 15px;
 	padding: 0;
+}
+.about .page-title h1.heading a{
+	text-decoration: none;
+	color: white;
 }
 .about .page-title h1.heading span{
 	color: #dda51e;
